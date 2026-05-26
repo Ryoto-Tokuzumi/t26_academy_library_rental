@@ -41,10 +41,6 @@ public class Stock {
     @JoinColumn(name = "book_id", referencedColumnName = "id", nullable = false)
     private BookMst bookMst;
 
-    // @OneToMany(mappedBy = "stock", cascade = CascadeType.ALL)
-    // public List<RentalManage> rentalManage;
-
-
     /** Getters */
 
     public String getId() {
